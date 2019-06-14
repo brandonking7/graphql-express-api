@@ -1,0 +1,28 @@
+{
+  "name": "express-graphql-ex",
+  "version": "1.0.0",
+  "description": "Example express-graphql app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Brandon King",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.3.1",
+    "graphql-tools": "^4.0.4",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.5.15",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
